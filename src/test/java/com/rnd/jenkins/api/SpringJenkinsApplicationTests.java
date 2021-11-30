@@ -16,7 +16,7 @@ public static final Logger log = LoggerFactory.getLogger(SpringJenkinsApplicatio
 
 
 	@Test
-	public  test() {
+	public void test() {
 		log.info("Test case executing...");
 		assertEquals(true, true);
 	}
