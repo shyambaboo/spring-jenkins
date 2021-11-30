@@ -10,9 +10,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
-class SpringJenkinsApplicationTests {
+public class SpringJenkinsApplicationTests {
 
-private static final Logger log = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+public static final Logger log = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 
 	@Test
